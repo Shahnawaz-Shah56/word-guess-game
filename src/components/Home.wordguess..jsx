@@ -5,6 +5,7 @@ const Home = () => {
     <div>
       <h1>Word Guess Game</h1>
       <p>Welcome! Click Start to begin.</p>
+      <p>play</p>
     </div>
   )
 }
