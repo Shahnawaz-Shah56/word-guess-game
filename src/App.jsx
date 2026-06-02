@@ -4,7 +4,7 @@ import Start from './components/Start.wordguess..jsx'
 import Home from './components/Home.wordguess..jsx'
 
 function App() {
-  const [Play, setPlay] = useState('start')
+  const [Play, setPlay] = useState('home')
 
   return (
     <>
