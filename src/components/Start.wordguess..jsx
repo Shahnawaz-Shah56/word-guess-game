@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
 
 const Start = ({ onPlaying }) => {
   return (
@@ -10,7 +10,7 @@ const Start = ({ onPlaying }) => {
 }
 
 Start.propTypes = {
-  onPlaying: PropTypes.func.isRequired
+  // onPlaying: PropTypes.func.isRequired
 }
 
 export default Start
