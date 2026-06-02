@@ -14,7 +14,7 @@ const Home = ({ onGameEnd }) => {
 const [word] = useState(wordsArr[Math.floor(Math.random()*wordsArr.length)])
 
 const [guessedLetters, setGuessedLetters] = useState([])
-const [chances, setChances] = useState(6)
+const [chances, setChances] = useState(10)
 const alphabets = ["A", "B", "C", "D", "E", "F", "G", 
              "H", "I", "J", "K", "L", "M", "N", 
              "O", "P", "Q", "R", "S", "T", "U", 
